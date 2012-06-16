@@ -26,7 +26,7 @@ function init(){
 	/*loadAjaxContentbyID('header','header.php?pageid=speakers');*/
 	loadAjaxContentbyID('footer1','footer.php?pageid=speakers');
 	loadAjaxContentbyID('searchit','searchit.php?pageid=speakers');
-	loadAjaxContentbyID('upcomingtalks','upcomingtalks.php?pageid=speakers');
+	//loadAjaxContentbyID('upcomingtalks','upcomingtalks.php?pageid=speakers');
 	loadAjaxContentbyID('essentials','essentials.php?pageid=speakers');
 	loadAjaxContentbyID('location','location.php?pageid=speakers');
 	loadAjaxContentbyID('facebookbadge','facebookbadge.php?pageid=speakers');
@@ -267,6 +267,37 @@ Son travail a été cité <a href="http://scholar.google.ca/citations?user=UOm9p
 				</li>
 				<li id="facebookbadge">
 					<!-- location loded by Ajax-->
+				</li>
+				<li id="twitterbadge" style="padding-left: 30px;">
+				    <h2 style="padding-left: 0px;">Twitter</h2>
+					    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+					    <script>
+					    new TWTR.Widget({
+					      version: 2,
+					      type: 'profile',
+					      rpp: 4,
+					      interval: 30000,
+					      width: 210,
+					      height: 300,
+					      theme: {
+						shell: {
+						  background: '#333333',
+						  color: '#ffffff'
+						},
+						tweets: {
+						  background: '#000000',
+						  color: '#ffffff',
+						  links: '#4aed05'
+						}
+					      },
+					      features: {
+						scrollbar: false,
+						loop: false,
+						live: false,
+						behavior: 'all'
+					      }
+					    }).render().setUser('CUMC2012').start();
+					    </script>
 				</li>
 			</ul>
 		</div>

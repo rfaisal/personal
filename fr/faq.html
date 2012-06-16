@@ -26,7 +26,7 @@ function init(){
 	/*loadAjaxContentbyID('header','header.php?pageid=faq');*/
 	loadAjaxContentbyID('footer1','footer.php?pageid=faq');
 	loadAjaxContentbyID('searchit','searchit.php?pageid=faq');
-	loadAjaxContentbyID('upcomingtalks','upcomingtalks.php?pageid=faq');
+	//loadAjaxContentbyID('upcomingtalks','upcomingtalks.php?pageid=faq');
 	loadAjaxContentbyID('essentials','essentials.php?pageid=faq');
 	loadAjaxContentbyID('location','location.php?pageid=faq');
 	loadAjaxContentbyID('facebookbadge','facebookbadge.php?pageid=faq');
@@ -232,6 +232,37 @@ function init(){
 				</li>
 				<li id="facebookbadge">
 					<!-- location loded by Ajax-->
+				</li>
+				<li id="twitterbadge" style="padding-left: 30px;">
+				    <h2 style="padding-left: 0px;">Twitter</h2>
+					    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+					    <script>
+					    new TWTR.Widget({
+					      version: 2,
+					      type: 'profile',
+					      rpp: 4,
+					      interval: 30000,
+					      width: 210,
+					      height: 300,
+					      theme: {
+						shell: {
+						  background: '#333333',
+						  color: '#ffffff'
+						},
+						tweets: {
+						  background: '#000000',
+						  color: '#ffffff',
+						  links: '#4aed05'
+						}
+					      },
+					      features: {
+						scrollbar: false,
+						loop: false,
+						live: false,
+						behavior: 'all'
+					      }
+					    }).render().setUser('CUMC2012').start();
+					    </script>
 				</li>
 			</ul>
 		</div>
