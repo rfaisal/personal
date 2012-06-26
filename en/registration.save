@@ -122,19 +122,11 @@ function init(){
 	<div id="page-bgbtm">
 		<div id="content">
 			<div class="post">
-<?php if(time() <= mktime(3, 0, 0, 6, 27, 2012)) { ?>
 				<h2 class="title">Registration </h2>
 				<p class="meta"><strong>ATTENTION UNIVERSITY OF WATERLOO STUDENTS: before registering you must contact Joseph Horan at cumc2012@mathsoc.uwaterloo.ca to confirm that you will receive travel assistance through the Mathematics Student Society.</strong></p>
 				<div class="entry">
                     <?php registration_div($regcontext); ?>
 				</div>
-<?php } else { ?>
-	<h2 class="title">Registration is now closed.</h2>
-	<p>Conference registration for the CUMC 2012 has now closed.  
-	   A <a href="/2012/en/about.html">list of students currently registered</a>
-           (except those who chose to opt out of the list) is now available.  
-           We hope to see you next year! </p>
-<?php } ?>
 			</div>
 		<div style="clear: both;">&nbsp;</div>
 		</div>

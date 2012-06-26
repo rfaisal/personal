@@ -122,6 +122,8 @@ function init(){
 	<div id="page-bgbtm">
 		<div id="content">
 			<div class="post">
+
+<?php if(time() <= mktime(3, 0, 0, 6, 27, 2012)) { ?>
 				<h2 class="title">Inscription </h2>
 				<p class="meta"></p>
 				<div class="entry">
@@ -129,6 +131,14 @@ function init(){
 				    <p>In the meantime, you are welcome to use the <a href="/2012/en/registration.php">english-language</a> registration form.</p> -->
                     <?php registration_div($regcontext); ?>
 				</div>
+<?php } else { ?>
+        <h2 class="title">L'Inscription est terminée.</h2>
+        <p>Les inscriptions pour le CCÉM 2012 sont maintenant terminées. 
+           La <a href="/2012/fr/about.html">liste des étudiants déjà inscrits</a> 
+	   (exepté ceux qui ne voulaient pas y être) est sur le site.  
+           Nous espérons vous voir l'an prochain! </p>
+<?php } ?>
+
 			</div>
 		<div style="clear: both;">&nbsp;</div>
 		</div>
