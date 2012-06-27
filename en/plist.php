@@ -41,6 +41,16 @@ UNION
 (SELECT 'Lee, Paul' as "name", 'UBC Okanagan' as university)
 UNION
 (SELECT 'Jackett, Neal' as "name", 'UBC Okanagan' as university)
+UNION
+(SELECT 'Avalos Mar, Alejandro' as "name", 'UBC Okanagan' as university)
+UNION
+(SELECT 'Robertson, Chloee' as "name", 'UBC Okanagan' as university)
+UNION
+(SELECT 'Yeremi, Miayan' as "name", 'UBC Okanagan' as university)
+UNION
+(SELECT 'Mandryk, Isaiah' as "name", 'UBC Okanagan' as university)
+UNION
+(SELECT 'Davis, Chad' as "name", 'UBC Okanagan' as university)
 ORDER BY name
 ;
 FETCHROWSFROMDB;

@@ -6,6 +6,7 @@
 \begin_preamble
 \usepackage{titlesec}
 \titleformat{\section}{\bfseries}{\thesection}{1em}{} 
+\date{}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -67,18 +68,20 @@
 
 \begin_body
 
-\begin_layout Standard
+\begin_layout Title
+On active and passive control
+\end_layout
 
-\series bold
-Dominikus Noll 
-\series default
-est Professeur en mathématiques appliquées à L’Université Paul Sabatier,
- en France.
- Ses centres d’intérêt incluent les méthodes numériques d’optimisation,
- les problèmes d’optimisation à grande échelle, la restauration d’images
- et les problèmes inverses, la tomographie, le contrôle du feedback ainsi
- que les processus de cristallisation et de précipitation.
- 
+\begin_layout Author
+Dominikus Noll
+\end_layout
+
+\begin_layout Abstract
+We will discuss passive control, also known as optimal control, and active
+ control, also referred to as feedback control.
+ We ask when these techniques are applied, what they have in common, in
+ which sense they are complementary, and we discuss the mathematical techniques
+ used to characterize and compute these control laws.
 \end_layout
 
 \end_body
