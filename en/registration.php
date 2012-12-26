@@ -30,6 +30,7 @@ function init(){
 	loadAjaxContentbyID('essentials','essentials.php?pageid=registration');
 	loadAjaxContentbyID('location','location.php?pageid=registration');
 	loadAjaxContentbyID('facebookbadge','facebookbadge.php?pageid=registration');
+	loadAjaxContentbyID('guidebook','guidebook.php');
 }											
 //-->
 </script>
@@ -151,6 +152,9 @@ function init(){
 					<!-- essentials loded by Ajax-->
 				</li>
 				<li id="location">
+					<!-- location loded by Ajax-->
+				</li>
+				<li id="guidebook">
 					<!-- location loded by Ajax-->
 				</li>
 				<li id="facebookbadge">

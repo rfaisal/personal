@@ -30,6 +30,7 @@ function init(){
 	loadAjaxContentbyID('essentials','essentials.php?pageid=registration');
 	loadAjaxContentbyID('location','location.php?pageid=registration');
 	loadAjaxContentbyID('facebookbadge','facebookbadge.php?pageid=registration');
+	loadAjaxContentbyID('guidebook','guidebook.php');
 }											
 //-->
 </script>
@@ -157,9 +158,13 @@ function init(){
 				<li id="location">
 					<!-- location loded by Ajax-->
 				</li>
+				<li id="guidebook">
+					<!-- location loded by Ajax-->
+				</li>
 				<li id="facebookbadge">
 					<!-- location loded by Ajax-->
 				</li>
+				
 				<li id="twitterbadge" style="padding-left: 30px;">
 				    <h2 style="padding-left: 0px;">Twitter</h2>
 					    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>

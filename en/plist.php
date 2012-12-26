@@ -51,6 +51,10 @@ UNION
 (SELECT 'Mandryk, Isaiah' as "name", 'UBC Okanagan' as university)
 UNION
 (SELECT 'Davis, Chad' as "name", 'UBC Okanagan' as university)
+UNION
+(SELECT 'Mather, Kevin' as "name", 'University of Manitoba' as university)
+UNION
+(SELECT 'Tawfik, Selim' as "name", 'University of Waterloo' as university)
 ORDER BY name
 ;
 FETCHROWSFROMDB;
