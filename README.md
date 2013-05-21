@@ -1,71 +1,41 @@
-<h1 id="masthead" style="display: block; width: 285px; height: 80px; background: url(http://jonobr1.github.io/two.js/images/logo.gif) center center no-repeat; overflow: hidden; text-indent: -9999px;">two.js</h1>
+Canadian Undergrad Math Conference 2012
+========
 
-A two-dimensional drawing api meant for modern browsers. It is renderer agnostic enabling the same api to render in multiple contexts: webgl, canvas2d, and svg.
+This is the repository for CUMC 2012 website. Hosted at http://cumc.math.ca/2012
 
-[Home](http://jonobr1.github.com/two.js) • [Examples](http://jonobr1.github.com/two.js/#examples) • [Documentation](http://jonobr1.github.com/two.js/#documentation) • [Help](https://github.com/jonobr1/two.js/issues?labels=question)
+### What is the CUMC all about?
 
-## Usage
-Download the [minified library](https://raw.github.com/jonobr1/two.js/master/build/two.min.js) and include it in your html. Alternatively see [how to build the library yourself](https://github.com/jonobr1/two.js#custom-build).
+Undergraduate research students make up a huge body of research knowledge that often goes unacknowledged. Seen as a stepping-stone into a graduate degree, where publications and conferences become priorities, the opportunities for undergraduate students to discuss their research on a national scale are sometimes lacking. The CUMC began in 1994 with the goal of filling that void. From its origins at McGill University, the CUMC has grown to become one of North America’s largest undergraduate conferences.
 
-```html
-<script src="js/two.min.js"></script>
-```
+Research in mathematics is not limited to pure math research; in fact, mathematics is used in many fields. Statistical techniques are applied in almost all fields of research, and other mathematical techniques are used in fields as diverse as physics, applied math, economics, bioinformatics, statistics, computer science, mathematical finance, and actuarial science. The exchange in mathematical ideas between fields has lead to many advances in our understanding of the world.
 
-Here is boilerplate html in order to draw a spinning rectangle in two.js:
+This conference aims to give undergraduate students at all levels of research experience a chance to learn more about mathematics and mathematics research beyond what is available in the normal classroom setting. Not only do students get the chance to discuss mathematics with other students from around the country, who share their interest in the field, but in recent years the conference has also been featured internationally, with students travelling from the United States, Europe, and South Asia to attend.
 
-```html
-<!doctype html>
-<html>
-  <head>
-    <script src="js/two.min.js"></script>
-  </head>
-  <body>
-    <script>
-      var two = new Two({
-        fullscreen: true,
-        autostart: true
-      }).appendTo(document.body);
-      var rect = two.makeRectangle(two.width / 2, two.height / 2, 50 ,50);
-      two.bind('update', function() {
-        rect.rotation += 0.001;
-      });
-    </script>
-  </body>
-</html>
-```
+Over the course of the conference students will be given the opportunity to present on a mathematical topic of their choice, which is valuable both for the presentation experience and the chance to receive feedback from their peers. Students will encounter new topics and applications of mathematics, and will listen to renowned keynote speakers from a variety of disciplines. These keynote speakers who are invited to the CUMC are either prominent research figures or rising stars in their fields, and most importantly, they care about undergraduate students and their exposure to mathematics. All attending students will leave with new experiences, new understanding, new ideas, and hopefully a new passion for mathematics.
 
-## Custom Build
-Two.js uses [nodejs](http://nodejs.org/) in order to build source files. You'll first want to install that. Next you'll want to install [node-minify](https://npmjs.org/package/node-minify):
 
-```
-cd two.js/utils
-npm install node-minify
-```
+### Who hosts the CUMC?
 
-Then open up `./utils/build.js` in the text editor of your choice. You'll see an array at the top called `files`. This is the list and order of source files that get compiled to the built source. Feel free to add, subtract, or modify based on your needs.
+In addition to exposing students to other researchers in mathematics, the CUMC gives undergraduate students a chance to visit a new Canadian mathematics department at the hosting university. For this reason, every year the CUMC is held at a different university. CUMC could not continue without its host schools, and for this reason it is an important tradition that the students attending the conference decide at which Canadian university the next CUMC will be held.
 
-If you're making an application and you're only using one renderer (i.e: svg context) then it is highly recommended to remove canvas and webgl renderers from your build in order to drastically decrease your file size.
+We strongly encourage you to consider making a bid to host CUMC 2013 at your school. The first step is to check with your home department to get approval for hosting. Next, at the conference you will give a presentation about your university, and why you feel it should host the next CUMC. Finally, each attending university will have one vote to cast for the next year’s CUMC host. Please contact us if you have any questions about this process.
 
-Finally, build the project:
+### What should I know about CUMC 2012?
 
-```
-node two.js/utils/build
-```
+For 2012 CUMC will be held at the University of British Columbia's Okanagan campus, which is located in Kelowna, in the beautiful Okanagan Valley.
 
-## Change Log
+Organizing Committee:
 
-Nightly
-+ Added `remove` and `clear` methods to `two` instance
-+ Fixed svg interpretation for `webgl` context
-+ ~~Added matrix property to all `Two.Shape`'s for advanced transformations~~
-+ Added `inverse` method to `Two.Matrix`
-+ Remove execution path dependency on utils/build.js [@masonbiler](https://github.com/masonbiler)
-+ Added `timeDelta` property to every `two` instance
-+ Added gruntfile, package.json for more integration with `npm`, and dependency free build (`build/two.clean.js`) [@iros](https://github.com/iros)
-+ Crossbrowser compatability with `noStroke` and `noFill` commands
+1. President: Crystal Parras
+2. VP Logistics: Andrea Hyde & Rodney Earl
+3. VP Fundraising: Jodie Foster & Garrett Culos
+4. VP Finance: Spencer Hunt
+5. Web Coordinator: Faisal Rahman
+6. Faculty Advisor: Dr. Sylvie Desjardins
 
-May 3, 2013 [v0.2.0](https://github.com/jonobr1/two.js/tree/v0.2.0)
-+ First alpha release
+Volunteers:
 
-Jan 29, 2013 [v0.1.0-alpha](https://github.com/jonobr1/two.js/tree/v0.1.0-alpha)
-+ Proof of Concept built from Three.js
+1. Logo & Poster Designer: Ryan Trenholm
+2. Website Content Writer (English): Katrina Williams
+3. Website Content Writer (French): Mike Habib & Leonore Schilles
+
