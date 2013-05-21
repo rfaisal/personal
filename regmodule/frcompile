@@ -1,0 +1,5 @@
+#!/bin/sh
+msgfmt --statistics \
+       translations/fr/LC_MESSAGES/regmod.po \
+    -o translations/fr/LC_MESSAGES/regmod.mo
+

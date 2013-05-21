@@ -1,0 +1,95 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{titlesec}
+\titleformat{\section}{\bfseries}{\thesection}{1em}{} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+Catherine Beauchemin
+\series default
+ is an Associate Professor in the Department of Physics at Ryerson University.
+ Her research interest is in self-organizing systems, particularly in mathematic
+al and computer modelling of infectious disease dynamics.
+ Originally from Montreal, she received her undergraduate degree in Computationa
+l Physics from the University of Ottawa in 2001, completing her 4th year
+ capstone project in NeuroPhysics under the supervision of Dr.
+ André Longtin.
+ She obtained her Ph.D.
+ under the supervision of Dr.
+ Jack Tuszynski in the Physics Department of the University of Alberta in
+ 2005, working on spatiotemporal modelling of viral infections.
+ Before starting at Ryerson, she was a postdoctoral fellow jointly at the
+ Los Alamos National Laboratory with Dr.
+ Alan S.
+ Perelson, and at the Adaptive Computation Laboratory in the Computer Science
+ Department of the University of New Mexico with Dr.
+ Stephanie Forrest.
+\end_layout
+
+\end_body
+\end_document
