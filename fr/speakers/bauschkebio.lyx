@@ -1,0 +1,116 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{titlesec}
+\titleformat{\section}{\bfseries}{\thesection}{1em}{} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+Heinz H.
+ Bauschke
+\series default
+ est un Professeur de Mathématiques à l’Université de la Colombie-Britannique,
+ Kelowna, et fait parti du 
+\shape italic
+Canada Research Chair (Tier 2)
+\shape default
+ in Convex Analysis and Optimization.
+ Il est né à Frankfurt, oú il a reçut son “Diplom-Mathematiker (mit Auszeichnung
+)” de Goethe Universität en 1990.
+ Il a défendu sa thèse de son PhD en Mathématiques à l’Université de Simon
+ Fraser en 1996, et a reçu la Médaille d’or du Gouverneur Général pour ses
+ études supérieures.
+ Après une bourse Postdoctorale du CRSNG passé à l’Université de Waterloo,
+ à l’Université de Pennsylvania, et à l’Université de Californie à Santa
+ Barbara, Dr.
+ Bauschke est devenu professeur à l’Okanagan University College en 1998.
+ Il a aussi été chercheur principal pour Workfire et Packeteer, oú son travail
+ sur la compression d’image JPEG l’a conduit a un brevet Américain.
+ Il a rejoint l’Université de Guelph en 2001, et est retourné à Kelowna
+ en 2005, lorsque l’Okanagan University College devînt l’Université de la
+ Colombie Britannique, campus Okanagan à Kelowna (UBCO).
+ 
+\end_layout
+
+\begin_layout Standard
+Dr.
+ Bauschke est auteur, ou encore co-auteur de plus de 80 articles sur l’Analyse
+ et l’Optimisation.
+ En collaboration avec Dr.
+ Patrick Combettes, il vient de finir et de publier la monographie de 450+
+ pages Convex Analysis and Monotone Operator Theory in Hilbert Spaces avec
+ Springer Verlag.
+ Il a également co-édité le livre Fixed-Point Algorithms for Inverse Problems
+ in Science and Enginnering, qui apparaît en 2011 dans les series de Springer
+ Optimization and Its Application.
+ Son travail a été cité plus de 3000 fois.
+ En 2009, il est devenu le Premier Chercheur de l’Année de UBCO.
+ 
+\end_layout
+
+\end_body
+\end_document

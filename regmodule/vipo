@@ -1,0 +1,3 @@
+#!/bin/sh
+vi translations/fr/LC_MESSAGES/regmod.po
+
