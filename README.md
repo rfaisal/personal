@@ -38,3 +38,7 @@ Volunteers:
 1. Logo & Poster Designer: Ryan Trenholm
 2. Website Content Writer (English): Katrina Williams
 3. Website Content Writer (French): Mike Habib & Leonore Schilles
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1f31cee3c9729d504e83867458618d29f536b27
