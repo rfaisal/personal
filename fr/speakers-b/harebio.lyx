@@ -1,0 +1,92 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{titlesec}
+\titleformat{\section}{\bfseries}{\thesection}{1em}{} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+Dr.
+ Donovan Hare
+\series default
+ splits his time as an Associate Professor of Mathematics at the University
+ of British Columbia, Okanagan, and a discrete optimization consultant to
+ industry in Canada and the US.
+ He has earned a BSc at the University of Victoria in Mathematics and Computer
+ Science, a MSc at the University of Alberta in Mathematics, and a PhD at
+ Simon Fraser University in Mathematics.
+ He has worked in the high stakes testing, health care, financial services,
+ production and transportation industries with such companies as the Medical
+ Council of Canada, the American Institute of Certified Public Accountants,
+ Educational Testing Services, Ameriquest, Anheuser Busch, Werner Enterprises,
+ and ILOG (now part of IBM).
+ He enjoys studying graph theory and combinatorics problems, particularly
+ if coloring is involved.
+\end_layout
+
+\end_body
+\end_document

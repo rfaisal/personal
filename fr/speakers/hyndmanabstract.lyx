@@ -1,0 +1,116 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{titlesec}
+\titleformat{\section}{\bfseries}{\thesection}{1em}{} 
+\date{}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finite Bases of Quasi-equations of Unary Algebras: How Few Rules Can We
+ Get Away With? 
+\end_layout
+
+\begin_layout Author
+Jennifer Hyndman 
+\end_layout
+
+\begin_layout Abstract
+The associative, distributive, commutative, negation and identity laws (equation
+s) for the integers are fundamental to our understanding of the integers.
+ From childhood we 
+\begin_inset Quotes eld
+\end_inset
+
+know
+\begin_inset Quotes erd
+\end_inset
+
+ that everything follows from these laws.
+ When we move to another algebraic structure a natural question is to ask
+ what are the equations that hold and from which equations does everything
+ else follow? 
+\end_layout
+
+\begin_layout Abstract
+When we allow for implications as well as equality we are considering expression
+s called quasi-equations.
+ Sometimes when working with small algebraic structures with, say, 4 or
+ 5 elements, our natural instinct that a few quasi-equations are sufficient
+ to imply all quasi-equations is true.
+ In other instances we require infinitely many quasi-equations to generate
+ all quasi-equations.
+ 
+\end_layout
+
+\begin_layout Abstract
+In this talk we see the variety of results that can arise in the seemingly
+ simple situation of quasi-equations of small algebraic structures with
+ only unary operations.
+ 
+\end_layout
+
+\end_body
+\end_document

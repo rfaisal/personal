@@ -1,0 +1,835 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CUMC registration module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-15 14:45-0400\n"
+"PO-Revision-Date: 2012-03-21 17:05-0800\n"
+"Last-Translator: Crystal <crystal.el.parras@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. required to be non-blank
+#: regmod.php:128
+#: regmod.php:505
+#: regmod.php:132
+#: regmod.php:509
+#: regmod.php:133
+#: regmod.php:510
+#: regmod.php:511
+msgid "given name"
+msgstr "prénom"
+
+#: regmod.php:128
+#: regmod.php:510
+#: regmod.php:132
+#: regmod.php:514
+#: regmod.php:133
+#: regmod.php:515
+#: regmod.php:516
+msgid "last name"
+msgstr "nom"
+
+#: regmod.php:128
+#: regmod.php:515
+#: regmod.php:132
+#: regmod.php:519
+#: regmod.php:133
+#: regmod.php:520
+#: regmod.php:521
+msgid "email address"
+msgstr "courriel"
+
+#: regmod.php:128
+#: regmod.php:520
+#: regmod.php:132
+#: regmod.php:524
+#: regmod.php:133
+#: regmod.php:525
+#: regmod.php:526
+msgid "city"
+msgstr "ville"
+
+#: regmod.php:128
+#: regmod.php:530
+#: regmod.php:132
+#: regmod.php:529
+#: regmod.php:133
+#: regmod.php:531
+msgid "province"
+msgstr "province"
+
+#: regmod.php:128
+#: regmod.php:132
+#: regmod.php:133
+msgid "talk information (or choose No)"
+msgstr "Informations de conversation (ou choisissez Non)"
+
+#: regmod.php:128
+#: regmod.php:540
+#: regmod.php:132
+#: regmod.php:544
+#: regmod.php:133
+#: regmod.php:545
+#: regmod.php:546
+msgid "T-shirt selection"
+msgstr "Sélection de T-shirt"
+
+#: regmod.php:128
+#: regmod.php:525
+#: regmod.php:132
+#: regmod.php:534
+#: regmod.php:133
+#: regmod.php:535
+#: regmod.php:536
+msgid "preferred language"
+msgstr "Langue de préférence"
+
+#: regmod.php:131
+#: regmod.php:501
+#: regmod.php:135
+#: regmod.php:505
+#: regmod.php:136
+#: regmod.php:506
+#: regmod.php:507
+#, php-format
+msgid "You need to provide your %s"
+msgstr "Vous devez fournir vos %s"
+
+#: regmod.php:501
+msgid "CUMC Registration:\n"
+msgstr "Inscription pour le CCÉM&nbsp:\n"
+
+#: regmod.php:501
+#: regmod.php:547
+#: regmod.php:505
+#: regmod.php:551
+#: regmod.php:506
+#: regmod.php:552
+#: regmod.php:507
+#: regmod.php:553
+msgid "CUMC Registration:"
+msgstr "Inscription pour le CCÉM:"
+
+#: regmod.php:535
+#: regmod.php:539
+#: regmod.php:540
+#: regmod.php:541
+msgid "talk information"
+msgstr "Informations de conversation"
+
+#: regmod.php:807
+#: regmod.php:808
+#: regmod.php:809
+#: regmod.php:810
+msgid "Form error:"
+msgstr "Erreur de forme:"
+
+#: regmod.php:812
+#: regmod.php:813
+#: regmod.php:814
+#: regmod.php:815
+msgid "<i>Note:</i> Online payment is required at the time of registration."
+msgstr "<i>Note:</i> Paiement en ligne requis au temps de l'inscription"
+
+#: regmod.php:819
+#: regmod.php:820
+#: regmod.php:821
+#: regmod.php:822
+msgid "Response required"
+msgstr "obligatoire"
+
+#: regmod.php:821
+#: regmod.php:822
+#: regmod.php:823
+#: regmod.php:824
+msgid "Participant Information"
+msgstr "Information du participant"
+
+#: regmod.php:829
+#: regmod.php:828
+#: regmod.php:830
+#: regmod.php:831
+msgid "Your Badge"
+msgstr "Votre insigne"
+
+#: regmod.php:831
+#: regmod.php:830
+#: regmod.php:832
+#: regmod.php:833
+msgid "Given name:"
+msgstr "Prénom&nbsp;:"
+
+#: regmod.php:832
+#: regmod.php:831
+#: regmod.php:833
+#: regmod.php:834
+msgid "Last name:"
+msgstr "Nom&nbsp;:"
+
+#: regmod.php:839
+#: regmod.php:838
+#: regmod.php:840
+#: regmod.php:841
+msgid "Name of University or Institution:"
+msgstr "Nom de l'Université ou de l'institution"
+
+#: regmod.php:848
+#: regmod.php:847
+#: regmod.php:849
+#: regmod.php:850
+msgid "The CUMC web site includes a publicly-viewable list of names of participants."
+msgstr "Le site web du CCÉM inclu une liste publique des noms des participants"
+
+#: regmod.php:849
+#: regmod.php:848
+#: regmod.php:850
+#: regmod.php:851
+msgid "I give my permission to list my name and university."
+msgstr "Je donne la permission de mettre mon nom et mon université sur la liste"
+
+#: regmod.php:852
+#: regmod.php:851
+#: regmod.php:853
+#: regmod.php:854
+msgid "Email:"
+msgstr "Courriel&nbsp;:"
+
+#: regmod.php:856
+#: regmod.php:855
+#: regmod.php:857
+#: regmod.php:858
+msgid "City:"
+msgstr "Ville&nbsp;:"
+
+#: regmod.php:861
+#: regmod.php:898
+#: regmod.php:938
+#: regmod.php:955
+#: regmod.php:860
+#: regmod.php:897
+#: regmod.php:937
+#: regmod.php:954
+#: regmod.php:862
+#: regmod.php:899
+#: regmod.php:939
+#: regmod.php:956
+#: regmod.php:863
+#: regmod.php:900
+#: regmod.php:940
+#: regmod.php:957
+msgid "[ choose ]"
+msgstr "[ choisir ]"
+
+#: regmod.php:863
+#: regmod.php:862
+#: regmod.php:864
+#: regmod.php:865
+msgid "British Columbia"
+msgstr "Colombie-Brittanique"
+
+#: regmod.php:865
+#: regmod.php:864
+#: regmod.php:866
+#: regmod.php:867
+msgid "Alberta"
+msgstr "Alberta"
+
+#: regmod.php:867
+#: regmod.php:866
+#: regmod.php:868
+#: regmod.php:869
+msgid "Saskatchewan"
+msgstr "Saskatchewan"
+
+#: regmod.php:869
+#: regmod.php:868
+#: regmod.php:870
+#: regmod.php:871
+msgid "Manitoba"
+msgstr "Manitoba"
+
+#: regmod.php:871
+#: regmod.php:870
+#: regmod.php:872
+#: regmod.php:873
+msgid "Ontario"
+msgstr "Ontario"
+
+#: regmod.php:873
+#: regmod.php:872
+#: regmod.php:874
+#: regmod.php:875
+msgid "Quebec"
+msgstr "Québec"
+
+#: regmod.php:875
+#: regmod.php:874
+#: regmod.php:876
+#: regmod.php:877
+msgid "New Brunswick"
+msgstr "Nouveau-Brunswick"
+
+#: regmod.php:877
+#: regmod.php:876
+#: regmod.php:878
+#: regmod.php:879
+msgid "Nova Scotia"
+msgstr "Nouvelle-Écosse"
+
+#: regmod.php:879
+#: regmod.php:878
+#: regmod.php:880
+#: regmod.php:881
+msgid "Prince Edward Island"
+msgstr "Île-du-Prince-Éduard"
+
+#: regmod.php:881
+#: regmod.php:880
+#: regmod.php:882
+#: regmod.php:883
+msgid "Newfoundland and Labrador"
+msgstr "Terre-Neuve-et-Labrador"
+
+#: regmod.php:883
+#: regmod.php:882
+#: regmod.php:884
+#: regmod.php:885
+msgid "Nunavut"
+msgstr "Nunavut"
+
+#: regmod.php:885
+#: regmod.php:884
+#: regmod.php:886
+#: regmod.php:887
+msgid "Northwest Territories"
+msgstr "Territoires du Nord-Ouest"
+
+#: regmod.php:887
+#: regmod.php:886
+#: regmod.php:888
+#: regmod.php:889
+msgid "Yukon"
+msgstr "Yukon"
+
+#: regmod.php:889
+#: regmod.php:888
+#: regmod.php:890
+#: regmod.php:891
+msgid "(outside Canada)"
+msgstr "(en dehors du Canada)"
+
+#: regmod.php:892
+#: regmod.php:891
+#: regmod.php:893
+#: regmod.php:894
+msgid "Age:"
+msgstr "Âge:"
+
+#: regmod.php:893
+#: regmod.php:892
+#: regmod.php:894
+#: regmod.php:895
+msgid "Preferred Language:"
+msgstr "Langue de préférence:"
+
+#: regmod.php:904
+#: regmod.php:903
+#: regmod.php:905
+#: regmod.php:906
+msgid "Dietary Restrictions (if any):"
+msgstr "Restrictions alimentaires (au besoin):"
+
+#: regmod.php:912
+#: regmod.php:911
+#: regmod.php:913
+#: regmod.php:914
+msgid "Conference Options"
+msgstr "Options du Congès"
+
+#: regmod.php:916
+#: regmod.php:915
+#: regmod.php:917
+#: regmod.php:918
+msgid "I wish to attend:"
+msgstr "J'aimerais participer"
+
+#: regmod.php:916
+#: regmod.php:915
+#: regmod.php:917
+#: regmod.php:918
+msgid "Cost"
+msgstr "Coût"
+
+#: regmod.php:918
+#: regmod.php:928
+#: regmod.php:917
+#: regmod.php:927
+#, php-format
+msgid "$ %0.2f"
+msgstr "%0,2f $"
+
+#: regmod.php:919
+#: regmod.php:918
+#: regmod.php:920
+#: regmod.php:921
+msgid "(early bird price)"
+msgstr "(prix de lève-tôt)"
+
+#: regmod.php:920
+#: regmod.php:919
+#: makereceipt.php:155
+#: regmod.php:734
+#: makereceipt.php:177
+#: makereceipt.php:178
+#: regmod.php:735
+#: regmod.php:921
+#: regmod.php:736
+#: regmod.php:922
+msgid "Opening Banquet"
+msgstr "Banquet d'ouverture"
+
+#: regmod.php:920
+#: regmod.php:926
+#: regmod.php:927
+#: regmod.php:919
+#: regmod.php:925
+#: regmod.php:921
+#: regmod.php:928
+#: regmod.php:922
+#: regmod.php:929
+msgid "incl."
+msgstr "incl."
+
+#: regmod.php:921
+#: regmod.php:920
+#: regmod.php:735
+#: makereceipt.php:179
+#: regmod.php:736
+#: regmod.php:922
+#: regmod.php:737
+#: regmod.php:923
+msgid "Dinner for Women in Math and Science"
+msgstr "Souper pour Femme en Math et Sciences"
+
+#: regmod.php:923
+#: regmod.php:922
+#: regmod.php:924
+#: regmod.php:925
+msgid "(Open to women and women-identified participants only.)"
+msgstr "(Ouvert pour femme et femme-participante seulement.)"
+
+#: regmod.php:927
+#: regmod.php:926
+#: makereceipt.php:157
+#: regmod.php:736
+#: makereceipt.php:179
+#: makereceipt.php:180
+#: regmod.php:737
+#: regmod.php:928
+#: regmod.php:738
+#: regmod.php:929
+msgid "Closing Banquet"
+msgstr "Banquet de fermeture"
+
+#: regmod.php:928
+#: regmod.php:927
+#: makereceipt.php:150
+#: makereceipt.php:151
+#: regmod.php:929
+#: regmod.php:930
+msgid "Total:"
+msgstr "Total:"
+
+#: regmod.php:940
+#: regmod.php:939
+#: regmod.php:941
+#: regmod.php:942
+msgid "No, I won't give a talk"
+msgstr "Non, je ne présenterai pas"
+
+#: regmod.php:942
+#: regmod.php:941
+#: regmod.php:943
+#: regmod.php:944
+msgid "Yes, I will give a 20 minute talk"
+msgstr "Oui, je donnerai une présentation de 20 minutes"
+
+#: regmod.php:944
+#: regmod.php:943
+#: regmod.php:945
+#: regmod.php:946
+msgid "Yes, I will give a 45 minute talk"
+msgstr "Oui, je donnerai une présentation de 45 minutes"
+
+#: regmod.php:947
+#: regmod.php:946
+#: regmod.php:948
+#: regmod.php:949
+msgid "Please follow <a href='AbstractSubmissionGuidelines.pdf' target='_blank'>this guide</a> (PDF) to submit your talk's abstract and title to the organizing committee."
+msgstr "Veuillez suivre <a href='AbstractSubmissionGuidelines.pdf' target='_blank'>this guide</a> (PDF) pour soumettre le résumé de votre présentation au comité d'organisation."
+
+#: regmod.php:956
+#: regmod.php:955
+#: regmod.php:957
+#: regmod.php:958
+msgid "(Women's) S"
+msgstr "(Femme) S"
+
+#: regmod.php:957
+#: regmod.php:956
+#: regmod.php:958
+#: regmod.php:959
+msgid "(Women's) M"
+msgstr "(Femme) M"
+
+#: regmod.php:958
+#: regmod.php:957
+#: regmod.php:959
+#: regmod.php:960
+msgid "(Women's) L"
+msgstr "(Femme) L"
+
+#: regmod.php:959
+#: regmod.php:958
+#: regmod.php:960
+#: regmod.php:961
+msgid "(Women's) XL"
+msgstr "(Femme) XL"
+
+#: regmod.php:960
+#: regmod.php:959
+#: regmod.php:961
+#: regmod.php:962
+msgid "(Men's) S"
+msgstr "(Homme) S"
+
+#: regmod.php:961
+#: regmod.php:960
+#: regmod.php:962
+#: regmod.php:963
+msgid "(Men's) M"
+msgstr "(Homme) M"
+
+#: regmod.php:962
+#: regmod.php:961
+#: regmod.php:963
+#: regmod.php:964
+msgid "(Men's) L"
+msgstr "(Homme) L"
+
+#: regmod.php:963
+#: regmod.php:962
+#: regmod.php:964
+#: regmod.php:965
+msgid "(Men's) XL"
+msgstr "(Homme) XL"
+
+#: regmod.php:969
+#: regmod.php:968
+#: regmod.php:970
+#: regmod.php:971
+msgid "Continue"
+msgstr "continuer"
+
+#: regmod.php:973
+#: regmod.php:972
+msgid "For registration and payment enquiries, please email <a href='mailto:registration@cumc.math.ca'>registration@cumc.math.ca</a>."
+msgstr "Pour des questions sur l'inscription ou le paiement, veuillez contacter <a href='mailto:registration@cumc.math.ca'>registration@cumc.math.ca</a>."
+
+#: regmod.php:952
+#: regmod.php:951
+#: regmod.php:953
+#: regmod.php:954
+msgid "Specify the style and size of the Conference T-shirt you prefer:"
+msgstr "Spécifiez le style et la grandeur du T-shirt de Congrès que vous préférer:"
+
+#: regmod.php:856
+#: regmod.php:855
+#: regmod.php:857
+#: regmod.php:858
+msgid "Province:"
+msgstr "Province&nbsp;:"
+
+#: regmod.php:824
+#: regmod.php:825
+#: regmod.php:826
+#: regmod.php:827
+msgid "Please use proper capitalization (e.g.. use 'Euler', not 'EULER' or 'euler').<br>Your badge will be printed exactly as you enter it here."
+msgstr "Veuillez utiliser la bonne capitalisation (ex.. utilisez 'Euler', non 'EULER' ou 'euler').<br> Votre insigne sera imprimé exactement comme vous l'écrivez ici."
+
+#: regmod.php:931
+#: regmod.php:932
+#: regmod.php:933
+#: regmod.php:934
+msgid "Participants are invited to give a talk of either 20 minutes or 45 minutes."
+msgstr "Les participants sont invités à donner une présentation de 20 minutes ou de 45 minutes."
+
+#: regmod.php:932
+#: regmod.php:933
+#: regmod.php:934
+#: regmod.php:935
+msgid "Do you want to give a talk?"
+msgstr "Voulez-vous faire une présentation?"
+
+#: makereceipt.php:156
+#: makereceipt.php:178
+msgid "Women in Math and Science Dinner"
+msgstr "Souper pour les Femmes en Math et Sciences"
+
+#. could be cancel or complete
+#: regmod.php:665
+#: regmod.php:686
+#: regmod.php:666
+#: regmod.php:687
+#: regmod.php:667
+#: regmod.php:688
+msgid "You cancelled online payment for your registration."
+msgstr "Vous annulez le paiement en ligne pour votre inscription"
+
+#: regmod.php:666
+#: regmod.php:667
+#: regmod.php:668
+#, php-format
+msgid "However, you are still stored in our database as customer number %d."
+msgstr "Néanmoins, vous êtes quand même dans notre base de données comme un numéro de client %d."
+
+#: regmod.php:668
+#: regmod.php:669
+#: regmod.php:670
+#, php-format
+msgid "If you wish, you can <a href='%s'>return to the registration form</a> to make changes or <a href='%s'>try again to pay</a> through PayPal."
+msgstr "Si vous voulez, vous pouvez <a href='%s'>return to the registration form</a> pour faire des changements ou <a href='%s'>try again to pay</a> à travers PayPal."
+
+#: regmod.php:671
+#: regmod.php:672
+#: regmod.php:673
+#, php-format
+msgid "If you are having difficulty completing your transaction through PayPal, you may wish to <a href='mailto:%s?Subject=Payment for cust number %d' style='font-weight:bold'>email us</a>."
+msgstr "Si vous avez de la difficulté à compléter votre transaction à travers PayPal, vous pouvez <a href='mailto:%s?Subject=Payment for cust number %d' style='font-weight:bold'>email us</a>."
+
+#: regmod.php:671
+#: regmod.php:679
+#: regmod.php:672
+#: regmod.php:680
+#: regmod.php:673
+#: regmod.php:681
+msgid "registrations@cumc.math.ca"
+msgstr "inscriptions@ccem.math.ca"
+
+#: regmod.php:675
+#: regmod.php:676
+#: regmod.php:677
+msgid "Thank you for registering."
+msgstr "Merci de vous avoir enregistré."
+
+#: regmod.php:676
+#: regmod.php:677
+#: regmod.php:678
+msgid "You will receive a receipt in your email as soon as PayPal confirms your payment (typically within ten minutes)."
+msgstr "Vous recevrez un reçu dans votre courriel dès que PayPal confirme votre paiement (habituellement dix minutes)."
+
+#: regmod.php:677
+#: regmod.php:678
+#: regmod.php:679
+#, php-format
+msgid "For your information, your customer number on our system is %d."
+msgstr "Pour votre information, votre numéro de client sur notre systeme est %d."
+
+#: regmod.php:679
+#: regmod.php:680
+#: regmod.php:681
+#, php-format
+msgid "If you have any further questions regarding payment or registration, you may wish to <a href='mailto:%s' style='font-weight:bold'>email us</a>."
+msgstr "Si vous avez d'autres questions sur le paiement ou l'inscription, vous pouvez <a href='mailto:%s' style='font-weight:bold'>email us</a>."
+
+#: regmod.php:687
+#: regmod.php:688
+#: regmod.php:689
+msgid "Start over"
+msgstr "Recommencer"
+
+#: regmod.php:689
+#: regmod.php:690
+#: regmod.php:691
+msgid "Thank you for registering.  You should receive a receipt in your email shortly."
+msgstr "Merci pour vous être inscrit. Vous devriez recevoir un reçu dans votre courriel bientôt."
+
+#: regmod.php:712
+#: regmod.php:713
+#: regmod.php:714
+msgid "Return to CUMC web site"
+msgstr "Retourner sur le site web du CCÉM"
+
+#: regmod.php:774
+#: regmod.php:775
+#: regmod.php:776
+msgid "Payment"
+msgstr "Paiement"
+
+#: regmod.php:775
+#: regmod.php:776
+#: regmod.php:777
+msgid "Payment for registration is only accepted online."
+msgstr "Le paiement pour l'inscription est seulement accepté en ligne."
+
+#: regmod.php:779
+#: regmod.php:780
+#: regmod.php:781
+msgid "Your total:"
+msgstr "Votre total:"
+
+#: regmod.php:781
+#: regmod.php:782
+#: regmod.php:783
+msgid "Click to proceed to PayPal"
+msgstr "Cliquer pour procéder à PayPal"
+
+#: regmod.php:788
+#: regmod.php:789
+#: regmod.php:790
+msgid "The CUMC uses PayPal for payment processing."
+msgstr "Le CCÉM utilise PayPal pour le traitement du paiement."
+
+#: regmod.php:789
+#: regmod.php:790
+#: regmod.php:791
+msgid "You will need either a credit card or a PayPal account to complete your registration.  Payments are made to the <i>Canadian Mathematical Society</i>.  You will be emailed a receipt once your payment is processed (usually within ten minutes)."
+msgstr "Vous aurez besoin d'une carte de crédit ou d'un compte PayPal pour compléter votre inscription. Les paiements sont fait au <i>Canadian Mathematical Society</i>. Un courriel vous sera envoyé lorsque le paiement sera traité (habituellement dix minutes)."
+
+#: regmod.php:790
+#: regmod.php:791
+#: regmod.php:792
+msgid "Note: You do not need to register an account on PayPal to use a credit card via PayPal."
+msgstr "Note: Vous n'avez pas besoin d'enregistrer un compte sur PayPal pour utiliser une carte de crédit via PayPal."
+
+#: regmod.php:794
+#: regmod.php:795
+#: regmod.php:974
+#: regmod.php:796
+#: regmod.php:975
+#, php-format
+msgid "For registration and payment enquiries, please email <a href='mailto:%s'>%s</a>."
+msgstr "Pour des questions sur l'inscription ou le paiement, envoyez un courriel au <a href='mailto:%s'>%s</a>."
+
+#: regmod.php:794
+#: makereceipt.php:163
+#: makereceipt.php:164
+#: regmod.php:795
+#: regmod.php:974
+#: regmod.php:796
+#: regmod.php:975
+msgid "registration@cumc.math.ca"
+msgstr "inscription@ccem.math.ca"
+
+#: makereceipt.php:94
+#: makereceipt.php:96
+#: makereceipt.php:95
+#: makereceipt.php:97
+#: regmod.php:715
+#: regmod.php:716
+msgid "cumc.math.ca"
+msgstr "ccem.math.ca"
+
+#: makereceipt.php:95
+#: makereceipt.php:96
+msgid "CUMC web site"
+msgstr "Site web du CCÉM"
+
+#: makereceipt.php:97
+#: makereceipt.php:98
+msgid "[banner image - CUMC]"
+msgstr "[image de bannière - CCÉM]"
+
+#: makereceipt.php:103
+#: makereceipt.php:104
+msgid "Payment Receipt"
+msgstr "Reçu du paiement"
+
+#: makereceipt.php:110
+#: makereceipt.php:111
+msgid "PayPal transaction number"
+msgstr "Numéro de transaction PayPal"
+
+#: makereceipt.php:110
+#: makereceipt.php:111
+msgid "CUMC payment number"
+msgstr "numéro de paiement du CCÉM"
+
+#: makereceipt.php:120
+#: makereceipt.php:121
+msgid "Paid by:"
+msgstr "Payé par:"
+
+#: makereceipt.php:120
+#: makereceipt.php:121
+msgid "CUMC Participant:"
+msgstr "Participant du CCÉM"
+
+#: makereceipt.php:133
+#: makereceipt.php:134
+msgid "Registered for"
+msgstr "Inscrit pour"
+
+#: makereceipt.php:138
+#: makereceipt.php:139
+msgid "Quantity"
+msgstr "Quantité"
+
+#: makereceipt.php:143
+#: makereceipt.php:144
+msgid "Price"
+msgstr "Prix"
+
+#: makereceipt.php:160
+#: makereceipt.php:161
+#, php-format
+msgid "<p>Registrations are processed by the <a href='http://%s'>%s</a>. This transaction typically appears on your statement as \"PayPal&nbsp;*CANADIANMAT\"."
+msgstr "<p> Les inscriptions sont traités par <a href='http://%s'>%s</a>. La transaction apparaît typiquement sur votre relevé comme étant \"PayPal&nbsp;*CANADIANMAT\"."
+
+#: makereceipt.php:161
+#: makereceipt.php:162
+msgid "cms.math.ca"
+msgstr "smc.math.ca"
+
+#: makereceipt.php:161
+#: makereceipt.php:162
+msgid "Canadian Mathematical Society"
+msgstr "Société mathématique du Canada"
+
+#: makereceipt.php:163
+#: makereceipt.php:164
+#, php-format
+msgid "<p>For registration and payment enquiries, please email <a href='mailto:%s'>%s</a>.</p>"
+msgstr "<p> Pour des questions sur l'inscription et sur le paiement, veuillez contacter <a href='mailto:%s'>%s</a>.</p>"
+
+#: makereceipt.php:166
+#: makereceipt.php:167
+msgid "Thank you for registering!"
+msgstr "Merci de vous avoir inscrit!"
+
+#: makereceipt.php:177
+#: regmod.php:734
+#: regmod.php:918
+#: regmod.php:735
+#: regmod.php:919
+msgid "Conference"
+msgstr "Congrès"
+
+#: regmod.php:896
+#: regmod.php:897
+msgid "When the conference begins, I will be at least 19 years old."
+msgstr "Lorsque le congrès commence, j'aurai au moins 19 ans."
+
+#. / TRANSLATORS: this is an error message
+#: regmod.php:141
+#: regmod.php:553
+msgid "The email address you provided is not in a valid format"
+msgstr "L'adresse courriel que vous avez fourni n'est pas dans un format valable"
+
