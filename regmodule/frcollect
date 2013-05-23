@@ -1,0 +1,11 @@
+#!/bin/sh
+xgettext -d regmod \
+    -p translations/fr/LC_MESSAGES \
+    -L PHP \
+    --add-comments \
+    --from-code=utf-8 \
+    -j \
+    --no-wrap \
+    --package-name='CUMC registration module' \
+    *.php
+
