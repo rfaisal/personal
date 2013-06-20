@@ -1,1 +1,1 @@
-Java Related Practices
+Python Related Practices
